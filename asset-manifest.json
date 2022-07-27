@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/exchange/static/js/main.bb87db2c.js",
+    "index.html": "/exchange/index.html",
+    "main.bb87db2c.js.map": "/exchange/static/js/main.bb87db2c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bb87db2c.js"
+  ]
+}
