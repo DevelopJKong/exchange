@@ -113,9 +113,9 @@ const Register = () => {
       />
       <Button>회원가입</Button>
       <br />
-      <Link to="/">Home</Link>
+      <Link to="/exchange">Home</Link>
       <br />
-      <Link to="/login">Login</Link>
+      <Link to="/exchange/login">Login</Link>
       <br />
       <Error>{errors?.email?.message}</Error>
       <Error>{errors?.password?.message}</Error>

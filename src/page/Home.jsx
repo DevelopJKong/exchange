@@ -11,7 +11,7 @@ const Home = () => {
       {login?.currentUser ? (
         <button onClick={() => setLogin(logout)}>LogOut</button>
       ) : (
-        <Link to="/login">Login</Link>
+        <Link to="/exchange/login">Login</Link>
       )}
     </>
   );

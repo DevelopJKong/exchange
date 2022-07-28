@@ -88,9 +88,9 @@ const Login = () => {
       />
       <Button>LOGIN</Button>
       <br />
-      <Link to="/">Home</Link>
+      <Link to="/exchange">Home</Link>
       <br />
-      <Link to="/join">Join</Link>
+      <Link to="/exchange/join">Join</Link>
       <br />
       <ErrorInfo>{errors?.username?.message}</ErrorInfo>
       <ErrorInfo>{errors?.password?.message}</ErrorInfo>
