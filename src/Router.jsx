@@ -15,9 +15,9 @@ const Router = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/login" element={login?.currentUser ? <Navigate to="/" /> : <Login />} />
-                <Route path="/join" element={<Register />} />
+                <Route path="/exchange" element={<Home />} />
+                <Route path="/exchange/login" element={login?.currentUser ? <Navigate to="/" /> : <Login />} />
+                <Route path="/exchange/join" element={<Register />} />
             </Routes>
         </BrowserRouter>
     );
